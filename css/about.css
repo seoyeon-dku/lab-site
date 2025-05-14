@@ -69,6 +69,11 @@
   font-size: 1.2rem;
   color: #2c3e50;
 }
+.quote-section blockquote,
+.quote-section blockquote p {
+  text-align: center;
+  margin: 0 auto;     /* 가로 마진 자동 */
+}
 .quote-section blockquote p::before {
   content: "“";
   font-size: 4rem;
@@ -95,9 +100,16 @@
 /* about-design */
 .about-design {
   padding: 60px 0;
+  text-align: center;
 }
 .about-design .section-title {
   font-size: 2rem;
   font-weight: 700;
+  margin-bottom: 10px;
+}
+.about-design p {
+  max-width: 800px;
+  margin: 0 auto;       /* 본문 가로 중앙 */
+  line-height: 1.6;
 }
 

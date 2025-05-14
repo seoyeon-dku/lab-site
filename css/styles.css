@@ -135,4 +135,16 @@ body {
 }
 
 /* 필요시 이 아래에 추가 스타일 작성 */
-
+/* 네비 활성 탭 스타일 */
+.nav-list a.active {
+  color: #d35400;         /* 오렌지 계열 강조 색 */
+  font-weight: bold;
+}
+.nav-list a.active::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: #d35400;
+  margin-top: 4px;
+}
