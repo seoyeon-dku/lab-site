@@ -1,0 +1,103 @@
+/* about-hero, feature-gallery, quote-section, about-design 등 */
+/* 앞서 드린 .about-hero ~ .about-design 섹션 스타일만 여기에 복사 */
+
+.about-hero {
+  padding: 60px 0;
+}
+.about-hero .section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+.section-divider {
+  width: 50px;
+  height: 4px;
+  margin: 10px auto 20px;
+  background: #d35400;
+}
+.divider-blue { background: #2980b9; }
+.intro {
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.6;
+  text-align: center;
+  color: #444;
+}
+
+/* feature-gallery */
+.feature-gallery {
+  background: url('../images/bg-structure.jpg') center/cover no-repeat;
+  padding: 40px 0;
+}
+.feature-gallery .container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.feature-item {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  max-width: 45%;
+}
+.feature-item img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.feature-item h3 {
+  font-size: 1.25rem;
+  margin-top: 10px;
+}
+
+/* quote-section */
+.quote-section {
+  padding: 60px 0;
+  background: #f9f9f9;
+}
+.quote-section .highlight-title {
+  text-align: center;
+  font-size: 1.75rem;
+  color: #d35400;
+  margin-bottom: 20px;
+}
+.quote-section blockquote {
+  position: relative;
+  max-width: 700px;
+  margin: auto;
+  font-size: 1.2rem;
+  color: #2c3e50;
+}
+.quote-section blockquote p::before {
+  content: "“";
+  font-size: 4rem;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  color: #2980b9;
+}
+.quote-section blockquote p::after {
+  content: "”";
+  font-size: 4rem;
+  position: absolute;
+  right: -20px;
+  bottom: -20px;
+  color: #2980b9;
+}
+.quote-section .emphasis {
+  display: block;
+  margin-top: 10px;
+  font-style: italic;
+  color: #2980b9;
+}
+
+/* about-design */
+.about-design {
+  padding: 60px 0;
+}
+.about-design .section-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
