@@ -1,0 +1,47 @@
+/* members.css */
+.member-section {
+  padding: 60px 0;
+}
+.member-section .section-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.member-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 40px;
+}
+.member-card {
+  background: #fff;
+  padding: 20px;
+  max-width: 280px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.member-photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 12px;
+}
+.member-card h3 {
+  margin-bottom: 8px;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.member-card p {
+  margin-bottom: 12px;
+  font-size: 0.95rem;
+}
+.member-card ul {
+  text-align: left;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  padding-left: 1em;
+}
+
